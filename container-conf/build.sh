@@ -12,5 +12,5 @@ build_as_root() {
 }
 
 build_as_run_user() {
-    install_repo_eval container-sirepo-base
+    install_repo_eval container-sirepo-base run_user
 }
